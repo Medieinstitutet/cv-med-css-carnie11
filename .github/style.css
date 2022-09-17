@@ -2,7 +2,7 @@ body{
     background-color: rgb(246, 246, 149);
     line-height: 1.6em;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color:rgb(88, 32, 32);
+    color: rgb(88, 32, 32);
     margin: 0;
 
 }
@@ -12,13 +12,13 @@ body{
 }
 
 .container{
-    width:80%;
-    margin:auto;
+    width: 80%;
+    margin: auto;
 }
 
 h1{
-    background-color:beige; 
-    font-size: 80px;
+    background-color: beige; 
+    font-size: 5rem;
     font-weight: bold;
     padding: 5%;
     margin-top: 0%;
@@ -37,25 +37,27 @@ h2{
 }
 
 ul{
-    color:rgb(88, 32, 32);
-    margin:0%;
-    list-style:none;
-    text-decoration:none;
+    color: rgb(88, 32, 32);
+    margin: 0%;
+    list-style: none;
+    text-decoration: none;
     border: 1px;
 }
 
 ul:hover{
-    color:rgb(233, 8, 8);
+    color: rgb(233, 8, 8);
 }
-*/-----------POSITIONING---------*/
+
+
+*/---------------POSITIONING-------------*/
 
 header{
-    position:sticky;
-    top:0;
-    right:0;
+    position: sticky;
+    top: 0;
+    right: 0;
 }
 aside{
-    position:absolute;
-    left:80%;
-    top:180px;
+    position: absolute;
+    left: 80%;
+    top: 180px;
 }
