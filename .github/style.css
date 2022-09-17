@@ -1,15 +1,18 @@
 body{
-    background-color: rgb(238, 238, 229);
+    background-color: rgb(222, 222, 199);
     line-height: 1.6em;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: rgb(106, 43, 43);
     margin: 0;
+    
 }
 
 /*-----------------HEADER---------------*/
 
 header{
-    background-image: url('windowx.jpg');
+    color:rgba(0, 0, 0, 0.636);
+    background-color: rgb(81, 138, 176);
+    background-image: url('geometric2.png');
     background-size: cover;
     padding: 10px;
 }
@@ -25,10 +28,12 @@ h1{
 /*-----------------MAIN---------------*/
 
 .container{
+    
     width: 80%;
     padding-top: 20px;
     padding-left: 10px;
     margin: auto;
+    position:relative;
 }
 
 h2{
@@ -77,8 +82,8 @@ header{
 
 aside{
     position: absolute;
-    left: 77%;
-    top: 207px;
+    left: 85%;
+    top: 30%;
 }
 
 footer{
