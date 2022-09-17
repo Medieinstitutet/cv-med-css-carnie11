@@ -1,52 +1,66 @@
 body{
-    background-color: rgb(246, 246, 149);
+    background-color: rgb(238, 238, 229);
     line-height: 1.6em;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: rgb(88, 32, 32);
+    color: rgb(106, 43, 43);
     margin: 0;
-
 }
 
-.header{
-    width: max-content;
+header{
+    background-image: url('windowx.jpg');
+    background-size: cover;
+    padding: 10px;
 }
 
 .container{
     width: 80%;
+    padding-top: 20px;
+    padding-left: 10px;
     margin: auto;
 }
 
 h1{
-    background-color: beige; 
-    font-size: 5rem;
+    font-size: 4.5rem;
     font-weight: bold;
     padding: 5%;
     margin-top: 0%;
     letter-spacing: 0.14em;
 }
 
-
-
 h2{
-    margin-bottom: 15px;
+    margin-bottom: 20px;
 }
 
-.first sentence{
+.firstsentence{
     padding-bottom: 10px;
-    
 }
 
-ul{
+li{
     color: rgb(88, 32, 32);
     margin: 0%;
-    list-style: none;
-    text-decoration: none;
+    list-style-type: none;
     border: 1px;
 }
 
-ul:hover{
-    color: rgb(233, 8, 8);
+a:link{
+    text-decoration: none;
 }
+
+a:visited{
+    text-decoration: none;
+    color:black
+}
+
+a:hover{
+    text-decoration: underline;
+    color:brown
+}
+
+a:active{
+    text-decoration: underline;
+}
+
+
 
 
 */---------------POSITIONING-------------*/
@@ -56,8 +70,15 @@ header{
     top: 0;
     right: 0;
 }
+
+
 aside{
     position: absolute;
-    left: 80%;
-    top: 180px;
+    left: 77%;
+    top: 207px;
+}
+
+footer{
+    position:relative;
+    top: 210px;
 }
