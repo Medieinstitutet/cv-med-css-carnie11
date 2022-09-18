@@ -101,6 +101,25 @@ a:active{
     line-height: 15px;
 }
 
+
+/*-----------------PROJECTSGRID--------------*/
+
+.grid-col-span-2{
+    width: auto;
+    grid-column: span 2;
+}
+.grid-col-span-3{
+    width: 2px;
+    grid-column: span 3;
+}
+
+.projectsgrid{
+    display: grid;
+    gap: 1.5rem;
+    grid-template-columns: 150px 150px 150px 150px 150px;
+}
+
+
 /*-----------------POSITIONING---------------*/
 
 header{
