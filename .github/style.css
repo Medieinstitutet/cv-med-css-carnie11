@@ -16,6 +16,7 @@ header{
     background-size: cover;
     padding: 10px;
     text-shadow: 2px 2px 2px rgb(119, 117, 117);
+    line-height: 70px;
 }
 
 h1{
@@ -76,6 +77,29 @@ a:active{
     text-decoration: underline;
 }
 
+/*-----------------RESUME---------------*/
+
+.resumesektioner{
+    display: flex;
+    flex-direction: row;
+    padding-top: 5%;
+    padding-left: 0;
+    padding-right: 20%;
+}
+.arbetenv{
+    width: 260px;
+    margin:auto;
+}
+
+.arbetenh{
+    width: 260px;
+    margin:auto;
+}
+
+.arbetsbeskrivning{
+    font-size: smaller;
+    line-height: 15px;
+}
 
 /*-----------------POSITIONING---------------*/
 
@@ -83,6 +107,7 @@ header{
     position: sticky;
     top: 0;
     right: 0;
+
 }
 
 aside{
