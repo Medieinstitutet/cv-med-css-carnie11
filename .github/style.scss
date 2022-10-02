@@ -1,3 +1,5 @@
+@import 'normalize';
+
 body{
     background-color: rgb(235, 235, 229);
 }
@@ -38,7 +40,6 @@ main{position: relative;
 
 .container{
     width: 100vh;
-    height: 100vl;
     padding-top: 20px;
     padding-left: 10px;
     margin: auto;
@@ -108,7 +109,7 @@ a:active{
     padding-right: 60px;
     gap: 10px;
     position: absolute;
-    font-size: 1ch;
+    font-size: 1.5ch;
    
 }
 
@@ -119,8 +120,8 @@ a:active{
  }
 
 .h3{
-   margin: none;
-   padding: none;
+   margin: 0;
+   padding: 0;
 }
 
 
